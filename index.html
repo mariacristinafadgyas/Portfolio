@@ -40,12 +40,12 @@
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">A passionate and experienced<span class="home__title-color"></br>Software Engineer</span></h1>
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.linkedin.com/in/maria-f-149570215/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/mariacristinafadgyas" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/maria-f-149570215/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/mariacristinafadgyas" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="moving-name">Maria Fadgyas</div>
@@ -144,28 +144,28 @@
                 <h2 class="section-title">My projects</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="https://github.com/mariacristinafadgyas/My-Zootopia" class="work__img">
+                    <a href="https://github.com/mariacristinafadgyas/My-Zootopia" target="_blank" class="work__img">
                         <img src="resources/images/zootopia.jpeg" alt="">
                         <div class="work__content">
                             <h3 class="work__title">My Zootopia</h3>
                             <p class="work__description">This project is designed to fetch detailed information about various animals using the free API provided by api-ninjas.com. By entering the name of an animal, users can retrieve comprehensive data about their chosen animal, which is then dynamically displayed on a web page. </br> The core functionality of this project is built with Python</p>
                         </div>
                     </a>
-                    <a href="https://github.com/mariacristinafadgyas/Movies_project_1" class="work__img">
+                    <a href="https://github.com/mariacristinafadgyas/Movies_project_1" target="_blank" class="work__img">
                         <img src="resources/images/movie_1.png" alt="">
                         <div class="work__content">
                             <h3 class="work__title">Movie Project 1</h3>
                             <p class="work__description">First version of the Movie Project, a Python-based application for managing films. This programme allows users to seamlessly add, update, delete and perform fuzzy searches for movies via the command prompt.  With bright console colours that enhance user interaction, users can organise their movie collection effortlessly and easily. </br> The core functionality of this project is built with Python</p>
                         </div>
                     </a>
-                    <a href="https://mariacristinafadgyas.github.io/Movie_project_2/" class="work__img">
+                    <a href="https://mariacristinafadgyas.github.io/Movie_project_2/" target="_blank" class="work__img">
                         <img src="resources/images/movie_2.png" alt="">
                         <div class="work__content">
                             <h3 class="work__title">Movie Project 2</h3>
                             <p class="work__description">This is the second version of the Movie Project. This version uses an API to seamlessly retrieve detailed film information. By integrating an HTML template, users can now explore and retrieve film data with improved graphics and easy navigation.</br> The core functionality of this project is built with Python</p>
                         </div>
                     </a>
-                    <a href="https://github.com/laistdomiciano/nosesavers" class="work__img">
+                    <a href="https://github.com/laistdomiciano/nosesavers" target="_blank" class="work__img">
                         <img src="resources/images/pollen2.png" alt="">
                         <div class="work__content">
                             <h3 class="work__title">Nose Savers</h3>
@@ -217,11 +217,11 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="mailto:fadgyas.maria@yahoo.com" method="post" enctype="text/plain" class="contact__form">
-                        <input type="text" name="name" placeholder="Name" class="contact__input">
-                        <input type="mail" name="mail" placeholder="Email" class="contact__input">
-                        <textarea name="comment" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                    <form action="mailto:fadgyas.maria@yahoo.com" method="get" enctype="text/plain" class="contact__form">
+                        <input type="text" name="subject" placeholder="Subject" class="contact__input">
+                        <input type="mail" name="email" placeholder="Email" class="contact__input">
+                        <textarea name="body" id="" cols="0" rows="10" placeholder="Your message" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -234,7 +234,6 @@
                 <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
             </div>
         </footer>
-
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
