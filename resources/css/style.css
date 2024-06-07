@@ -229,7 +229,7 @@ img {
 /* ===== Moving Name =====*/
 .moving-name {
    position: absolute;
-   top: 520px;
+   top: 600px;
    left: 100;
    white-space: nowrap;
    font-size: 2rem;
@@ -348,6 +348,17 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+.work__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--second-color);
+}
+
+.work__description {
+  font-size: 1rem;
+  color: var(--second-color);
+}
+
 /* ===== TOOLS =====*/
 .tool_item {
   position: relative;
@@ -397,6 +408,11 @@ img {
 
 .tool__list {
   display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  row-gap: 3rem;
   padding-top: 0;
 }
 
@@ -423,6 +439,18 @@ img {
 }
 .tool_item:hover::before {
   font-weight: bold;
+}
+
+@media screen and (max-width: 570px) {
+  .tool__list {
+    flex-direction: column;
+    align-items: center; /* Center the items */
+    row-gap: 3rem; /* Adjust the gap between rows as needed */
+  }
+
+  .tool__item {
+    margin-left: 0; /* Remove left margin for column layout */
+  }
 }
 
 

@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="resources/css/style.css">
 
         <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
         <title>Portfolio website complete</title>
     </head>
@@ -38,7 +39,7 @@
         <main class="l-main">
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">A passionate and </br>experienced<span class="home__title-color"></br>Software Engineer</span></h1>
+                    <h1 class="home__title">A passionate and experienced<span class="home__title-color"></br>Software Engineer</span></h1>
                     <a href="#" class="button">Contact</a>
                 </div>
 
@@ -78,7 +79,7 @@
 
                           <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-python skills__icon'></i>
+                                <i class='bx bxl-python skills__icon'></i>
                                 <span class="skills__name">Python</span>
                             </div>
                             <div class="skills__bar skills__py"></div>
@@ -111,7 +112,7 @@
 
                          <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
+                                <i class='bx bxl-javascript skills__icon'></i>
                                 <span class="skills__name">JavaScript</span>
                             </div>
                             <div class="skills__bar skills__js"></div>
@@ -122,7 +123,7 @@
 
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
+                                <i class='bx bxl-aws skills__icon'></i>
                                 <span class="skills__name">AWS</span>
                             </div>
                             <div class="skills__bar skills__aws"></div>
@@ -140,20 +141,36 @@
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+                <h2 class="section-title">My projects</h2>
 
                 <div class="work__container bd-grid">
                     <a href="https://github.com/mariacristinafadgyas/My-Zootopia" class="work__img">
                         <img src="resources/images/zootopia.jpeg" alt="">
+                        <div class="work__content">
+                            <h3 class="work__title">My Zootopia</h3>
+                            <p class="work__description">This project is designed to fetch detailed information about various animals using the free API provided by api-ninjas.com. By entering the name of an animal, users can retrieve comprehensive data about their chosen animal, which is then dynamically displayed on a web page. </br> The core functionality of this project is built with Python</p>
+                        </div>
                     </a>
                     <a href="https://github.com/mariacristinafadgyas/Movies_project_1" class="work__img">
                         <img src="resources/images/movie_1.png" alt="">
+                        <div class="work__content">
+                            <h3 class="work__title">Movie Project 1</h3>
+                            <p class="work__description">First version of the Movie Project, a Python-based application for managing films. This programme allows users to seamlessly add, update, delete and perform fuzzy searches for movies via the command prompt.  With bright console colours that enhance user interaction, users can organise their movie collection effortlessly and easily. </br> The core functionality of this project is built with Python</p>
+                        </div>
                     </a>
                     <a href="https://mariacristinafadgyas.github.io/Movie_project_2/" class="work__img">
                         <img src="resources/images/movie_2.png" alt="">
+                        <div class="work__content">
+                            <h3 class="work__title">Movie Project 2</h3>
+                            <p class="work__description">This is the second version of the Movie Project. This version uses an API to seamlessly retrieve detailed film information. By integrating an HTML template, users can now explore and retrieve film data with improved graphics and easy navigation.</br> The core functionality of this project is built with Python</p>
+                        </div>
                     </a>
                     <a href="https://github.com/laistdomiciano/nosesavers" class="work__img">
                         <img src="resources/images/pollen2.png" alt="">
+                        <div class="work__content">
+                            <h3 class="work__title">Nose Savers</h3>
+                            <p class="work__description">This app provides timely SMS alerts to subscribers about pollen levels in their specified location, helping them stay informed and manage allergies effectively. Users receive messages containing the time of the maximum pollen quantity for their selected trees, ensuring they have precise information to plan their day.</p>
+                        </div>
                     </a>
                 </div>
             </section>
@@ -200,10 +217,10 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <form action="mailto:fadgyas.maria@yahoo.com" method="post" enctype="text/plain" class="contact__form">
+                        <input type="text" name="name" placeholder="Name" class="contact__input">
+                        <input type="mail" name="mail" placeholder="Email" class="contact__input">
+                        <textarea name="comment" id="" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="button" value="Send" class="contact__button button">
                     </form>
                 </div>

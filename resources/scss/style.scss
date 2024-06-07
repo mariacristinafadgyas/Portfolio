@@ -238,8 +238,8 @@ img {
 /* ===== Moving Name =====*/
 .moving-name {
    position: absolute;
-   top: 520px;
-   left: 100;
+   top: 500px;
+   left: 0;
    white-space: nowrap;
    font-size: 2rem;
    font-weight: bold;
@@ -366,6 +366,17 @@ img {
             }
         }
     }
+
+    &__title {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: var(--second-color);
+    }
+
+    &__description {
+      font-size: 1rem;
+      color: var(--second-color);
+    }
 }
 /* ===== TOOLS =====*/
 .tool_item {
@@ -429,6 +440,13 @@ img {
     &__list {
       display: flex;
       padding-top: 0;
+      display: flex;
+      padding-top: 0;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      flex-wrap: wrap;
+      column-gap: 3rem;
+      row-gap: 3rem;
     }
 
     &__item {
@@ -442,6 +460,19 @@ img {
     }
 }
 
+@media screen and (max-width: 570px) {
+  .tool {
+      &__list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+      }
+
+      &__item {
+        margin-left: 0;
+      }
+  }
+}
 
 /* ===== CONTACT =====*/
 .contact {
