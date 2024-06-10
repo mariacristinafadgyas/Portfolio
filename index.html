@@ -221,10 +221,10 @@
 
                 <div class="contact__container bd-grid">
                     <form action="mailto:fadgyas.maria@yahoo.com" method="get" enctype="text/html" class="contact__form">
-                        <input type="text" name="subject" placeholder="Subject" class="contact__input">
-                        <input type="mail" name="email" placeholder="Email" class="contact__input">
-                        <textarea name="body" id="" cols="0" rows="10" placeholder="Your message" class="contact__input"></textarea>
-                        <input type="submit" value="Send" class="contact__button button">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" class="contact__input">
+                        <input type="mail" id="email" name="email" placeholder="Email" class="contact__input">
+                        <textarea name="body" id="message" cols="0" rows="10" placeholder="Your message" class="contact__input"></textarea>
+                        <input onclick="sendMessage()" id="btn" value="Send" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -240,6 +240,17 @@
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- ==== CONTACT FORM ==== -->
+        <script>
+            const sendMessage = () => {
+            var subject = document.getElementById("subject").value;
+            var email = document.getElementById("email").value;
+            var body = document.getElementById("message").value;
+
+            window.location.href = `mailto:fadgyas.maria@yahoo.com?subject=${subject}&body=${body}`
+        }
+        </script>
 
         <!--===== MAIN JS =====-->
         <script src="resources/js/main.js"></script>

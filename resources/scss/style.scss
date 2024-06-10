@@ -52,6 +52,13 @@ body {
   font-size: var(--normal-font-size);
   color: var(--second-color);
   background-color: var(--third-color);
+
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1, h2, p {
@@ -493,6 +500,17 @@ img {
       font-size: var(--normal-font-size);
       cursor: pointer;
       margin-left: auto;
+      width: 150px;  // Adjust the width as needed
+      height: 50px;  // Adjust the height as needed
+      padding: 0.5rem 1rem;  // Adjust padding as needed
+      background-color: var(--first-color);
+      color: var(--third-color);
+      border-radius: 0.5rem;
+      transition: 0.3s;
+
+      &:hover {
+        box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+        }
     }
 }
 
