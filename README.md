@@ -14,8 +14,7 @@ Reach out to discuss potential collaborations, opportunities, or just to connect
 ## Responsive Portfolio
 
 - Responsive Personal Portfolio Website based on the template offered by https://github.com/bedimcode/portfolio-responsive-complete?tab=readme-ov-file
-- Images were generated with Microsoft Designer
+- Images were generated with <img alt="Microsoft Designer" src="https://img.shields.io/badge/-Microsoft%20Designer-DD0031?style=flat-square&logoColor=white" />
 
 
-![preview img](/preview.png)
-
+![preview img](preview.png)
