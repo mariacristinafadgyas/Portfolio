@@ -39,7 +39,7 @@
         <main class="l-main">
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">A passionate and experienced<span class="home__title-color"></br>Software Engineer</span></h1>
+                    <h1 class="home__title">A passionate and experienced<span class="home__title-color"><br>Software Engineer</span></h1>
                     <a href="#contact" class="button">Contact</a>
                 </div>
 
@@ -74,8 +74,8 @@
 
                 <div class="skills__container bd-grid">
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Throughout my career, I have developed a variety of skills spanning different tools and languages, including Python, HTML (Hypertext Markup Language), CSS (Cascading Style Sheets) and JavaScript. With my knowledge in these areas, I can create robust software solutions and engaging user interfaces. As a certified AWS Practitioner, I also use Amazon Web Services (AWS) to implement scalable cloud computing solutions. In addition to my technical knowledge, I also excel in version control with Git and GitHub, problem solving and effective communication. My commitment to continuous learning ensures that I stay on the cutting edge of technology and drive innovation and efficiency in all my endeavours.</p>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">Throughout my career, I have developed a variety of skills spanning different tools and languages, including Python, HTML (Hypertext Markup Language), CSS (Cascading Style Sheets) and JavaScript. With my knowledge in these areas, I can create robust software solutions and engaging user interfaces. As a certified AWS Practitioner, I also use Amazon Web Services (AWS) to implement scalable cloud computing solutions. In addition to my technical knowledge, I also excel in version control with Git and GitHub, problem-solving and effective communication. My commitment to continuous learning ensures that I stay on the cutting edge of technology and drive innovation and efficiency in all my endeavours.</p>
 
                           <div class="skills__data">
                             <div class="skills__names">
@@ -84,7 +84,7 @@
                             </div>
                             <div class="skills__bar skills__py"></div>
                             <div>
-                                <span class="skills__percentage">99%</span>
+                                <span class="skills__percentage"></span>
                             </div>
                         </div>
 
@@ -95,7 +95,7 @@
                             </div>
                             <div class="skills__bar skills__html"></div>
                             <div>
-                                <span class="skills__percentage">95%</span>
+                                <span class="skills__percentage"></span>
                             </div>
                         </div>
 
@@ -106,7 +106,7 @@
                             </div>
                             <div class="skills__bar skills__css"></div>
                             <div>
-                                <span class="skills__percentage">85%</span>
+                                <span class="skills__percentage"></span>
                             </div>
                         </div>
 
@@ -117,7 +117,7 @@
                             </div>
                             <div class="skills__bar skills__js"></div>
                             <div>
-                                <span class="skills__percentage">10%</span>
+                                <span class="skills__percentage"></span>
                             </div>
                         </div>
 
@@ -128,7 +128,7 @@
                             </div>
                             <div class="skills__bar skills__aws"></div>
                             <div>
-                                <span class="skills__percentage">60%</span>
+                                <span class="skills__percentage"></span>
                             </div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                         <img src="resources/images/zootopia.jpeg" alt="">
                         <div class="work__content">
                             <h3 class="work__title">My Zootopia</h3>
-                            <p class="work__description">This project is designed to fetch detailed information about various animals using the free API provided by api-ninjas.com. By entering the name of an animal, users can retrieve comprehensive data about their chosen animal, which is then dynamically displayed on a web page. </br> The core functionality of this project is built with Python</p>
+                            <p class="work__description">This project is designed to fetch detailed information about various animals using the free API provided by api-ninjas.com. By entering the name of an animal, users can retrieve comprehensive data about their chosen animal, which is then dynamically displayed on a web page. <br> The core functionality of this project is built with Python</p>
                         </div>
                     </a>
                     <a href="https://github.com/mariacristinafadgyas/Movies_project_3" target="_blank" class="work__img">
@@ -177,6 +177,13 @@
                         <div class="work__content">
                             <h3 class="work__title">Best Buy</h3>
                             <p class="work__description">The BestBuy app is a Python-based application that uses an object-orientated approach to manage products and facilitate purchases. It includes a product class to display the attributes of each product and a store class to manage a list of products and process transactions. The app allows users to add and remove products, check product availability and process orders efficiently.</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/mariacristinafadgyas/MasterBlog" target="_blank" class="work__img">
+                        <img src="resources/images/blog.jpeg" alt="">
+                        <div class="work__content">
+                            <h3 class="work__title">SciQuest Journal</h3>
+                            <p class="work__description">SciQuest Journal is a simple web application built with Flask that allows users to create, view, update and delete blog posts. Key features include the ability to create new posts, view all existing posts and update or delete posts using the appropriate buttons; the Like function is also implemented. The application displays the title, author, content and number of likes for each post.</p>
                         </div>
                     </a>
                 </div>
@@ -230,9 +237,9 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="mailto:fadgyas.maria@yahoo.com" method="get" enctype="text/html" class="contact__form">
+                    <form action="mailto:fadgyas.maria@yahoo.com" method="get" enctype="text/plain" class="contact__form">
                         <input type="text" id="subject" name="subject" placeholder="Subject" class="contact__input">
-                        <input type="mail" id="email" name="email" placeholder="Email" class="contact__input">
+                        <input type="email" id="email" name="email" placeholder="Email" class="contact__input">
                         <textarea name="body" id="message" cols="0" rows="10" placeholder="Your message" class="contact__input"></textarea>
                         <input onclick="sendMessage()" id="btn" value="Send" class="contact__button button">
                     </form>
@@ -244,7 +251,8 @@
         <footer class="footer">
             <p class="footer__title">MariaF</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/maria-f-149570215/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/mariacristinafadgyas" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
             </div>
         </footer>
 

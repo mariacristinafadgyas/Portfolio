@@ -321,19 +321,19 @@ img {
   z-index: var(--z-back);
 }
 .skills__py {
-  width: 99%;
+  width: 100%;
 }
 .skills__html {
-  width: 95%;
+  width: 100%;
 }
 .skills__css {
-  width: 85%;
+  width: 100%;
 }
 .skills__js {
-  width: 10%;
+  width: 100%;
 }
 .skills__aws {
-  width: 60%;
+  width: 100%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -503,7 +503,11 @@ img {
   margin-bottom: var(--mb-4);
 }
 .footer__social {
+  display: flex;
+  justify-content: center;
+  gap: var(--mb-2);
   margin-bottom: var(--mb-4);
+  margin-left: var(--mb-4);
 }
 .footer__icon {
   font-size: 1.5rem;
