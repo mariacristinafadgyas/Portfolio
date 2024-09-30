@@ -7,6 +7,9 @@ Hello! I'm Maria, a passionate and experienced Software Engineer. I specialize i
 ## Explore My Work
 In this portfolio, you'll find a selection of my projects that demonstrate my expertise in software engineering. Each project highlights my ability to design, develop, and deploy software across different platforms.
 
+> 🛎️ **NOTE** 🛎️ <br>
+> Please note that the `BookAlchemy` and `Blog_API` deployments are hosted on a free Render account. As a result, the page may take some time to load, especially after periods of inactivity, which can cause delays of 50 seconds or more.
+
 ## Let's Connect
 I am always eager to take on new challenges and collaborate with forward-thinking individuals and organizations. Whether you have a project in mind, a problem to solve, or just want to chat about technology, feel free to get in touch.
 Reach out to discuss potential collaborations, opportunities, or just to connect and share ideas.
